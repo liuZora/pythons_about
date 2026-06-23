@@ -1,0 +1,6076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow">
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="windowModified">
+   <bool>false</bool>
+  </property>
+  <property name="maximumWidth">
+   <number>16777215</number>
+  </property>
+  <property name="locale">
+   <locale language="Chinese" country="China"/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="windowFilePath">
+   <string/>
+  </property>
+  <property name="visible">
+   <bool>true</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="maximumHeight">
+   <number>16777215</number>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="updatesEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="palette">
+   <palette>
+    <active/>
+    <inactive/>
+    <disabled/>
+   </palette>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="accessibleName">
+   <string/>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>428</width>
+    <height>201</height>
+   </size>
+  </property>
+  <property name="size" stdset="0">
+   <size>
+    <width>623</width>
+    <height>446</height>
+   </size>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>2568</x>
+    <y>297</y>
+    <width>623</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="windowIconText">
+   <string/>
+  </property>
+  <property name="objectName">
+   <string notr="true">MainWindow</string>
+  </property>
+  <property name="toolTipDuration">
+   <number>-1</number>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="statusTip">
+   <string/>
+  </property>
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="minimumHeight">
+   <number>201</number>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="accessibleDescription">
+   <string/>
+  </property>
+  <property name="pos" stdset="0">
+   <point>
+    <x>2567</x>
+    <y>266</y>
+   </point>
+  </property>
+  <property name="font">
+   <font/>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>24</width>
+    <height>24</height>
+   </size>
+  </property>
+  <property name="inputMethodHints">
+   <enum>Qt::ImhNone</enum>
+  </property>
+  <property name="minimumWidth">
+   <number>428</number>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <layout class="QMainWindowLayout" name="_layout">
+   <property name="spacing">
+    <number>6</number>
+   </property>
+   <property name="margin">
+    <number>11</number>
+   </property>
+   <property name="objectName">
+    <string notr="true">_layout</string>
+   </property>
+   <property name="sizeConstraint">
+    <enum>QLayout::SetDefaultConstraint</enum>
+   </property>
+  </layout>
+  <widget class="QWidget">
+   <property name="font">
+    <font/>
+   </property>
+   <property name="windowModality">
+    <enum>Qt::NonModal</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">centralwidget</string>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="minimumWidth">
+    <number>0</number>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowFilePath">
+    <string/>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="maximumHeight">
+    <number>16777215</number>
+   </property>
+   <property name="minimumHeight">
+    <number>0</number>
+   </property>
+   <property name="inputMethodHints">
+    <enum>Qt::ImhNone</enum>
+   </property>
+   <property name="maximumWidth">
+    <number>16777215</number>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>45</y>
+     <width>623</width>
+     <height>383</height>
+    </rect>
+   </property>
+   <property name="windowTitle">
+    <string/>
+   </property>
+   <property name="updatesEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowOpacity">
+    <double>1.000000000000000</double>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="palette">
+    <palette>
+     <active/>
+     <inactive/>
+     <disabled/>
+    </palette>
+   </property>
+   <property name="locale">
+    <locale language="Chinese" country="China"/>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="accessibleName">
+    <string/>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="accessibleDescription">
+    <string/>
+   </property>
+   <property name="windowIconText">
+    <string/>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="windowModified">
+    <bool>false</bool>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="pos" stdset="0">
+    <point>
+     <x>0</x>
+     <y>45</y>
+    </point>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="size" stdset="0">
+    <size>
+     <width>623</width>
+     <height>383</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+    <property name="objectName">
+     <string notr="true">verticalLayout</string>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="spacing">
+       <number>-1</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="objectName">
+       <string notr="true">gridLayout</string>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item row="2" column="4">
+       <widget class="QLabel">
+        <property name="frameRect">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>74</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="textInteractionFlags">
+         <enum>Qt::LinksAccessibleByMouse</enum>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="margin">
+         <number>0</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>74</width>
+          <height>22</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>518</x>
+          <y>338</y>
+          <width>74</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="objectName">
+         <string notr="true">nowtime</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="indent">
+         <number>-1</number>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>518</x>
+          <y>338</y>
+         </point>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QComboBox">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="duplicatesEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="frame">
+         <bool>true</bool>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="modelColumn">
+         <number>0</number>
+        </property>
+        <property name="maxCount">
+         <number>2147483647</number>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::WheelFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>74</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>518</x>
+          <y>318</y>
+          <width>74</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="objectName">
+         <string notr="true">playlistBox</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="autoCompletion">
+         <bool>true</bool>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>518</x>
+          <y>318</y>
+         </point>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="insertPolicy">
+         <enum>QComboBox::InsertAtBottom</enum>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="autoCompletionCaseSensitivity">
+         <enum>Qt::CaseInsensitive</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="maxVisibleItems">
+         <number>10</number>
+        </property>
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="currentText">
+         <string>顺序播放</string>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="minimumContentsLength">
+         <number>0</number>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="autoRepeatDelay">
+         <number>300</number>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>播放</string>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>124</width>
+          <height>23</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>360</y>
+          <width>124</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+        <property name="shortcut">
+         <string/>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="objectName">
+         <string notr="true">play_button</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+        <property name="autoRepeatInterval">
+         <number>100</number>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>0</x>
+          <y>360</y>
+         </point>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+        <property name="down">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="2" colspan="4">
+       <widget class="QVideoWidget">
+        <property name="font">
+         <font/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="objectName">
+         <string notr="true">videoout</string>
+        </property>
+        <property name="saturation">
+         <number>0</number>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="aspectRatioMode">
+         <enum>Qt::KeepAspectRatio</enum>
+        </property>
+        <property name="brightness">
+         <number>0</number>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="hue">
+         <number>0</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>512</width>
+          <height>338</height>
+         </rect>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="fullScreen">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="contrast">
+         <number>0</number>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>0</x>
+          <y>0</y>
+         </point>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>512</width>
+          <height>338</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="autoRepeatDelay">
+         <number>300</number>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>暂停</string>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>124</width>
+          <height>23</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>259</x>
+          <y>360</y>
+          <width>124</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+        <property name="shortcut">
+         <string/>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="objectName">
+         <string notr="true">mid_button</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+        <property name="autoRepeatInterval">
+         <number>100</number>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>259</x>
+          <y>360</y>
+         </point>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+        <property name="down">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="4">
+       <widget class="QSlider">
+        <property name="singleStep">
+         <number>1</number>
+        </property>
+        <property name="sliderDown">
+         <bool>false</bool>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="invertedAppearance">
+         <bool>false</bool>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="sliderPosition">
+         <number>0</number>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="minimum">
+         <number>0</number>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>512</width>
+          <height>22</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>338</y>
+          <width>512</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="invertedControls">
+         <bool>false</bool>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="objectName">
+         <string notr="true">timeSlider</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="pageStep">
+         <number>10</number>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>0</x>
+          <y>338</y>
+         </point>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="tickInterval">
+         <number>0</number>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="tracking">
+         <bool>true</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5" rowspan="2" colspan="2">
+       <widget class="QSlider">
+        <property name="singleStep">
+         <number>1</number>
+        </property>
+        <property name="sliderDown">
+         <bool>false</bool>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="invertedAppearance">
+         <bool>false</bool>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="sliderPosition">
+         <number>0</number>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="minimum">
+         <number>0</number>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>22</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>598</x>
+          <y>318</y>
+          <width>22</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="invertedControls">
+         <bool>false</bool>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="objectName">
+         <string notr="true">volumeSlider</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="pageStep">
+         <number>10</number>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>598</x>
+          <y>318</y>
+         </point>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="tickInterval">
+         <number>0</number>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="tracking">
+         <bool>true</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="5" colspan="2">
+       <widget class="QLabel">
+        <property name="frameRect">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>25</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="textInteractionFlags">
+         <enum>Qt::LinksAccessibleByMouse</enum>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="margin">
+         <number>0</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>音量</string>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>25</width>
+          <height>23</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>598</x>
+          <y>360</y>
+          <width>25</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="objectName">
+         <string notr="true">volume</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="indent">
+         <number>-1</number>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>598</x>
+          <y>360</y>
+         </point>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4" colspan="3">
+       <widget class="QListWidget">
+        <property name="frameRect">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>105</width>
+          <height>318</height>
+         </rect>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="dragDropOverwriteMode">
+         <bool>false</bool>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="movement">
+         <enum>QListView::Static</enum>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="horizontalScrollMode">
+         <enum>QAbstractItemView::ScrollPerItem</enum>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="autoScrollMargin">
+         <number>16</number>
+        </property>
+        <property name="batchSize">
+         <number>100</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QAbstractScrollArea::AdjustIgnored</enum>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="tabKeyNavigation">
+         <bool>false</bool>
+        </property>
+        <property name="sortingEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAsNeeded</enum>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="alternatingRowColors">
+         <bool>false</bool>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="autoScroll">
+         <bool>true</bool>
+        </property>
+        <property name="selectionBehavior">
+         <enum>QAbstractItemView::SelectItems</enum>
+        </property>
+        <property name="modelColumn">
+         <number>0</number>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="showDropIndicator" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="flow">
+         <enum>QListView::TopToBottom</enum>
+        </property>
+        <property name="selectionRectVisible">
+         <bool>false</bool>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>105</width>
+          <height>318</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>518</x>
+          <y>0</y>
+          <width>105</width>
+          <height>318</height>
+         </rect>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="resizeMode">
+         <enum>QListView::Fixed</enum>
+        </property>
+        <property name="objectName">
+         <string notr="true">listvidename</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="dragDropMode">
+         <enum>QAbstractItemView::NoDragDrop</enum>
+        </property>
+        <property name="textElideMode">
+         <enum>Qt::ElideRight</enum>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="selectionMode">
+         <enum>QAbstractItemView::SingleSelection</enum>
+        </property>
+        <property name="isWrapping" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="verticalScrollMode">
+         <enum>QAbstractItemView::ScrollPerItem</enum>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAsNeeded</enum>
+        </property>
+        <property name="uniformItemSizes">
+         <bool>false</bool>
+        </property>
+        <property name="currentRow">
+         <number>-1</number>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>518</x>
+          <y>0</y>
+         </point>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>-1</width>
+          <height>-1</height>
+         </size>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="viewMode">
+         <enum>QListView::ListMode</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="gridSize">
+         <size>
+          <width>-1</width>
+          <height>-1</height>
+         </size>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="layoutMode">
+         <enum>QListView::SinglePass</enum>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+        <property name="dragEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="defaultDropAction">
+         <enum>Qt::CopyAction</enum>
+        </property>
+        <widget class="QWidget">
+         <property name="font">
+          <font/>
+         </property>
+         <property name="windowModality">
+          <enum>Qt::NonModal</enum>
+         </property>
+         <property name="objectName">
+          <string notr="true">qt_scrollarea_viewport</string>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="minimumWidth">
+          <number>0</number>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="windowFilePath">
+          <string/>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="statusTip">
+          <string/>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="maximumHeight">
+          <number>16777215</number>
+         </property>
+         <property name="minimumHeight">
+          <number>0</number>
+         </property>
+         <property name="inputMethodHints">
+          <enum>Qt::ImhNone</enum>
+         </property>
+         <property name="maximumWidth">
+          <number>16777215</number>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>2</x>
+           <y>2</y>
+           <width>101</width>
+           <height>314</height>
+          </rect>
+         </property>
+         <property name="windowTitle">
+          <string/>
+         </property>
+         <property name="updatesEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="windowOpacity">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="palette">
+          <palette>
+           <active/>
+           <inactive/>
+           <disabled/>
+          </palette>
+         </property>
+         <property name="locale">
+          <locale language="Chinese" country="China"/>
+         </property>
+         <property name="cursor">
+          <cursorShape>ArrowCursor</cursorShape>
+         </property>
+         <property name="accessibleName">
+          <string/>
+         </property>
+         <property name="toolTipDuration">
+          <number>-1</number>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+         <property name="tabletTracking">
+          <bool>false</bool>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::DefaultContextMenu</enum>
+         </property>
+         <property name="visible">
+          <bool>true</bool>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+         <property name="accessibleDescription">
+          <string/>
+         </property>
+         <property name="windowIconText">
+          <string/>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="whatsThis">
+          <string/>
+         </property>
+         <property name="windowModified">
+          <bool>false</bool>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="pos" stdset="0">
+          <point>
+           <x>2</x>
+           <y>2</y>
+          </point>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="size" stdset="0">
+          <size>
+           <width>101</width>
+           <height>314</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QWidget">
+         <property name="font">
+          <font/>
+         </property>
+         <property name="windowModality">
+          <enum>Qt::NonModal</enum>
+         </property>
+         <property name="objectName">
+          <string notr="true">qt_scrollarea_hcontainer</string>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="minimumWidth">
+          <number>0</number>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="windowFilePath">
+          <string/>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="statusTip">
+          <string/>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="maximumHeight">
+          <number>16777215</number>
+         </property>
+         <property name="minimumHeight">
+          <number>0</number>
+         </property>
+         <property name="inputMethodHints">
+          <enum>Qt::ImhNone</enum>
+         </property>
+         <property name="maximumWidth">
+          <number>16777215</number>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>100</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="windowTitle">
+          <string/>
+         </property>
+         <property name="updatesEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="windowOpacity">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="palette">
+          <palette>
+           <active/>
+           <inactive/>
+           <disabled/>
+          </palette>
+         </property>
+         <property name="locale">
+          <locale language="Chinese" country="China"/>
+         </property>
+         <property name="cursor">
+          <cursorShape>ArrowCursor</cursorShape>
+         </property>
+         <property name="accessibleName">
+          <string/>
+         </property>
+         <property name="toolTipDuration">
+          <number>-1</number>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+         <property name="tabletTracking">
+          <bool>false</bool>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::DefaultContextMenu</enum>
+         </property>
+         <property name="visible">
+          <bool>false</bool>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="accessibleDescription">
+          <string/>
+         </property>
+         <property name="windowIconText">
+          <string/>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="whatsThis">
+          <string/>
+         </property>
+         <property name="windowModified">
+          <bool>false</bool>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="pos" stdset="0">
+          <point>
+           <x>0</x>
+           <y>0</y>
+          </point>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="size" stdset="0">
+          <size>
+           <width>100</width>
+           <height>30</height>
+          </size>
+         </property>
+         <layout class="QBoxLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="margin">
+           <number>0</number>
+          </property>
+          <property name="objectName">
+           <string notr="true"/>
+          </property>
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMaximumSize</enum>
+          </property>
+          <item>
+           <widget class="QScrollBar">
+            <property name="singleStep">
+             <number>1</number>
+            </property>
+            <property name="sliderDown">
+             <bool>false</bool>
+            </property>
+            <property name="value">
+             <number>0</number>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+            <property name="windowModified">
+             <bool>false</bool>
+            </property>
+            <property name="maximumWidth">
+             <number>16777215</number>
+            </property>
+            <property name="locale">
+             <locale language="Chinese" country="China"/>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="windowFilePath">
+             <string/>
+            </property>
+            <property name="visible">
+             <bool>false</bool>
+            </property>
+            <property name="maximumHeight">
+             <number>16777215</number>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="updatesEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="palette">
+             <palette>
+              <active/>
+              <inactive/>
+              <disabled/>
+             </palette>
+            </property>
+            <property name="sliderPosition">
+             <number>0</number>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="whatsThis">
+             <string/>
+            </property>
+            <property name="mouseTracking">
+             <bool>false</bool>
+            </property>
+            <property name="accessibleName">
+             <string/>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="minimum">
+             <number>0</number>
+            </property>
+            <property name="size" stdset="0">
+             <size>
+              <width>100</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>30</height>
+             </rect>
+            </property>
+            <property name="windowOpacity">
+             <double>1.000000000000000</double>
+            </property>
+            <property name="invertedControls">
+             <bool>true</bool>
+            </property>
+            <property name="windowIconText">
+             <string/>
+            </property>
+            <property name="objectName">
+             <string notr="true"/>
+            </property>
+            <property name="toolTipDuration">
+             <number>-1</number>
+            </property>
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="tabletTracking">
+             <bool>false</bool>
+            </property>
+            <property name="statusTip">
+             <string/>
+            </property>
+            <property name="windowModality">
+             <enum>Qt::NonModal</enum>
+            </property>
+            <property name="minimumHeight">
+             <number>0</number>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximum">
+             <number>0</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="accessibleDescription">
+             <string/>
+            </property>
+            <property name="pageStep">
+             <number>10</number>
+            </property>
+            <property name="pos" stdset="0">
+             <point>
+              <x>0</x>
+              <y>0</y>
+             </point>
+            </property>
+            <property name="font">
+             <font/>
+            </property>
+            <property name="inputMethodHints">
+             <enum>Qt::ImhNone</enum>
+            </property>
+            <property name="minimumWidth">
+             <number>0</number>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="tracking">
+             <bool>true</bool>
+            </property>
+            <property name="contextMenuPolicy">
+             <enum>Qt::DefaultContextMenu</enum>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="acceptDrops">
+             <bool>false</bool>
+            </property>
+            <property name="windowTitle">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget">
+         <property name="font">
+          <font/>
+         </property>
+         <property name="windowModality">
+          <enum>Qt::NonModal</enum>
+         </property>
+         <property name="objectName">
+          <string notr="true">qt_scrollarea_vcontainer</string>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="minimumWidth">
+          <number>0</number>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="windowFilePath">
+          <string/>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="statusTip">
+          <string/>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="maximumHeight">
+          <number>16777215</number>
+         </property>
+         <property name="minimumHeight">
+          <number>0</number>
+         </property>
+         <property name="inputMethodHints">
+          <enum>Qt::ImhNone</enum>
+         </property>
+         <property name="maximumWidth">
+          <number>16777215</number>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>100</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="windowTitle">
+          <string/>
+         </property>
+         <property name="updatesEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="windowOpacity">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="palette">
+          <palette>
+           <active/>
+           <inactive/>
+           <disabled/>
+          </palette>
+         </property>
+         <property name="locale">
+          <locale language="Chinese" country="China"/>
+         </property>
+         <property name="cursor">
+          <cursorShape>ArrowCursor</cursorShape>
+         </property>
+         <property name="accessibleName">
+          <string/>
+         </property>
+         <property name="toolTipDuration">
+          <number>-1</number>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+         <property name="tabletTracking">
+          <bool>false</bool>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::DefaultContextMenu</enum>
+         </property>
+         <property name="visible">
+          <bool>false</bool>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="accessibleDescription">
+          <string/>
+         </property>
+         <property name="windowIconText">
+          <string/>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="whatsThis">
+          <string/>
+         </property>
+         <property name="windowModified">
+          <bool>false</bool>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="pos" stdset="0">
+          <point>
+           <x>0</x>
+           <y>0</y>
+          </point>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="size" stdset="0">
+          <size>
+           <width>100</width>
+           <height>30</height>
+          </size>
+         </property>
+         <layout class="QBoxLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="margin">
+           <number>0</number>
+          </property>
+          <property name="objectName">
+           <string notr="true"/>
+          </property>
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMaximumSize</enum>
+          </property>
+          <item>
+           <widget class="QScrollBar">
+            <property name="singleStep">
+             <number>1</number>
+            </property>
+            <property name="sliderDown">
+             <bool>false</bool>
+            </property>
+            <property name="value">
+             <number>0</number>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+            <property name="windowModified">
+             <bool>false</bool>
+            </property>
+            <property name="maximumWidth">
+             <number>16777215</number>
+            </property>
+            <property name="locale">
+             <locale language="Chinese" country="China"/>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="windowFilePath">
+             <string/>
+            </property>
+            <property name="visible">
+             <bool>false</bool>
+            </property>
+            <property name="maximumHeight">
+             <number>16777215</number>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="updatesEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="palette">
+             <palette>
+              <active/>
+              <inactive/>
+              <disabled/>
+             </palette>
+            </property>
+            <property name="sliderPosition">
+             <number>0</number>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="whatsThis">
+             <string/>
+            </property>
+            <property name="mouseTracking">
+             <bool>false</bool>
+            </property>
+            <property name="accessibleName">
+             <string/>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="minimum">
+             <number>0</number>
+            </property>
+            <property name="size" stdset="0">
+             <size>
+              <width>100</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>30</height>
+             </rect>
+            </property>
+            <property name="windowOpacity">
+             <double>1.000000000000000</double>
+            </property>
+            <property name="invertedControls">
+             <bool>true</bool>
+            </property>
+            <property name="windowIconText">
+             <string/>
+            </property>
+            <property name="objectName">
+             <string notr="true"/>
+            </property>
+            <property name="toolTipDuration">
+             <number>-1</number>
+            </property>
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="tabletTracking">
+             <bool>false</bool>
+            </property>
+            <property name="statusTip">
+             <string/>
+            </property>
+            <property name="windowModality">
+             <enum>Qt::NonModal</enum>
+            </property>
+            <property name="minimumHeight">
+             <number>0</number>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximum">
+             <number>0</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="accessibleDescription">
+             <string/>
+            </property>
+            <property name="pageStep">
+             <number>10</number>
+            </property>
+            <property name="pos" stdset="0">
+             <point>
+              <x>0</x>
+              <y>0</y>
+             </point>
+            </property>
+            <property name="font">
+             <font/>
+            </property>
+            <property name="inputMethodHints">
+             <enum>Qt::ImhNone</enum>
+            </property>
+            <property name="minimumWidth">
+             <number>0</number>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="tracking">
+             <bool>true</bool>
+            </property>
+            <property name="contextMenuPolicy">
+             <enum>Qt::DefaultContextMenu</enum>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="acceptDrops">
+             <bool>false</bool>
+            </property>
+            <property name="windowTitle">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="autoRepeatDelay">
+         <number>300</number>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>快退</string>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>123</width>
+          <height>23</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>360</y>
+          <width>123</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+        <property name="shortcut">
+         <string/>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="objectName">
+         <string notr="true">left_button</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+        <property name="autoRepeatInterval">
+         <number>100</number>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>130</x>
+          <y>360</y>
+         </point>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+        <property name="down">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QPushButton">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="windowModified">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+        <property name="maximumWidth">
+         <number>16777215</number>
+        </property>
+        <property name="locale">
+         <locale language="Chinese" country="China"/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="windowFilePath">
+         <string/>
+        </property>
+        <property name="visible">
+         <bool>true</bool>
+        </property>
+        <property name="maximumHeight">
+         <number>16777215</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="updatesEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="palette">
+         <palette>
+          <active/>
+          <inactive/>
+          <disabled/>
+         </palette>
+        </property>
+        <property name="autoRepeatDelay">
+         <number>300</number>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>快进</string>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string/>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="size" stdset="0">
+         <size>
+          <width>123</width>
+          <height>23</height>
+         </size>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>389</x>
+          <y>360</y>
+          <width>123</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+        <property name="shortcut">
+         <string/>
+        </property>
+        <property name="windowOpacity">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="windowIconText">
+         <string/>
+        </property>
+        <property name="objectName">
+         <string notr="true">right_button</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="statusTip">
+         <string/>
+        </property>
+        <property name="windowModality">
+         <enum>Qt::NonModal</enum>
+        </property>
+        <property name="minimumHeight">
+         <number>0</number>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleDescription">
+         <string/>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+        <property name="autoRepeatInterval">
+         <number>100</number>
+        </property>
+        <property name="pos" stdset="0">
+         <point>
+          <x>389</x>
+          <y>360</y>
+         </point>
+        </property>
+        <property name="font">
+         <font/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="inputMethodHints">
+         <enum>Qt::ImhNone</enum>
+        </property>
+        <property name="minimumWidth">
+         <number>0</number>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="windowTitle">
+         <string/>
+        </property>
+        <property name="down">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar">
+   <property name="font">
+    <font/>
+   </property>
+   <property name="windowModality">
+    <enum>Qt::NonModal</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">menubar</string>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="minimumWidth">
+    <number>0</number>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowFilePath">
+    <string/>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="maximumHeight">
+    <number>16777215</number>
+   </property>
+   <property name="minimumHeight">
+    <number>0</number>
+   </property>
+   <property name="inputMethodHints">
+    <enum>Qt::ImhNone</enum>
+   </property>
+   <property name="maximumWidth">
+    <number>16777215</number>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>623</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="windowTitle">
+    <string/>
+   </property>
+   <property name="updatesEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowOpacity">
+    <double>1.000000000000000</double>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="palette">
+    <palette>
+     <active/>
+     <inactive/>
+     <disabled/>
+    </palette>
+   </property>
+   <property name="locale">
+    <locale language="Chinese" country="China"/>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>false</bool>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="accessibleName">
+    <string/>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="accessibleDescription">
+    <string/>
+   </property>
+   <property name="windowIconText">
+    <string/>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="windowModified">
+    <bool>false</bool>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="pos" stdset="0">
+    <point>
+     <x>0</x>
+     <y>0</y>
+    </point>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="size" stdset="0">
+    <size>
+     <width>623</width>
+     <height>23</height>
+    </size>
+   </property>
+   <widget class="QToolButton">
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonIconOnly</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="windowModified">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="maximumWidth">
+     <number>16777215</number>
+    </property>
+    <property name="locale">
+     <locale language="Chinese" country="China"/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="windowFilePath">
+     <string/>
+    </property>
+    <property name="visible">
+     <bool>false</bool>
+    </property>
+    <property name="maximumHeight">
+     <number>16777215</number>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="updatesEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="palette">
+     <palette>
+      <active/>
+      <inactive/>
+      <disabled/>
+     </palette>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>300</number>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="whatsThis">
+     <string/>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="accessibleName">
+     <string/>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="size" stdset="0">
+     <size>
+      <width>100</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="arrowType">
+     <enum>Qt::NoArrow</enum>
+    </property>
+    <property name="windowOpacity">
+     <double>1.000000000000000</double>
+    </property>
+    <property name="windowIconText">
+     <string/>
+    </property>
+    <property name="objectName">
+     <string notr="true">qt_menubar_ext_button</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="popupMode">
+     <enum>QToolButton::InstantPopup</enum>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="windowModality">
+     <enum>Qt::NonModal</enum>
+    </property>
+    <property name="minimumHeight">
+     <number>0</number>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="accessibleDescription">
+     <string/>
+    </property>
+    <property name="autoRepeatInterval">
+     <number>100</number>
+    </property>
+    <property name="pos" stdset="0">
+     <point>
+      <x>0</x>
+      <y>0</y>
+     </point>
+    </property>
+    <property name="font">
+     <font/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
+    </property>
+    <property name="inputMethodHints">
+     <enum>Qt::ImhNone</enum>
+    </property>
+    <property name="minimumWidth">
+     <number>0</number>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="windowTitle">
+     <string/>
+    </property>
+    <property name="down">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QMenu">
+    <property name="font">
+     <font/>
+    </property>
+    <property name="windowModality">
+     <enum>Qt::NonModal</enum>
+    </property>
+    <property name="objectName">
+     <string notr="true">menu</string>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="minimumWidth">
+     <number>0</number>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="windowFilePath">
+     <string/>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="maximumHeight">
+     <number>16777215</number>
+    </property>
+    <property name="minimumHeight">
+     <number>0</number>
+    </property>
+    <property name="inputMethodHints">
+     <enum>Qt::ImhNone</enum>
+    </property>
+    <property name="maximumWidth">
+     <number>16777215</number>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="windowTitle">
+     <string/>
+    </property>
+    <property name="updatesEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="windowOpacity">
+     <double>1.000000000000000</double>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="toolTipsVisible">
+     <bool>false</bool>
+    </property>
+    <property name="palette">
+     <palette>
+      <active/>
+      <inactive/>
+      <disabled/>
+     </palette>
+    </property>
+    <property name="locale">
+     <locale language="Chinese" country="China"/>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="accessibleName">
+     <string/>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+    <property name="visible">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="accessibleDescription">
+     <string/>
+    </property>
+    <property name="separatorsCollapsible">
+     <bool>true</bool>
+    </property>
+    <property name="windowIconText">
+     <string/>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="whatsThis">
+     <string/>
+    </property>
+    <property name="windowModified">
+     <bool>false</bool>
+    </property>
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="pos" stdset="0">
+     <point>
+      <x>0</x>
+      <y>0</y>
+     </point>
+    </property>
+    <property name="title">
+     <string>打开文件</string>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="size" stdset="0">
+     <size>
+      <width>100</width>
+      <height>30</height>
+     </size>
+    </property>
+    <addaction name="actionfiles"/>
+    <addaction name="actiondirs"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar">
+   <property name="font">
+    <font/>
+   </property>
+   <property name="windowModality">
+    <enum>Qt::NonModal</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">statusbar</string>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="minimumWidth">
+    <number>0</number>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowFilePath">
+    <string/>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="maximumHeight">
+    <number>16777215</number>
+   </property>
+   <property name="minimumHeight">
+    <number>0</number>
+   </property>
+   <property name="inputMethodHints">
+    <enum>Qt::ImhNone</enum>
+   </property>
+   <property name="maximumWidth">
+    <number>16777215</number>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>428</y>
+     <width>623</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="windowTitle">
+    <string/>
+   </property>
+   <property name="updatesEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowOpacity">
+    <double>1.000000000000000</double>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="palette">
+    <palette>
+     <active/>
+     <inactive/>
+     <disabled/>
+    </palette>
+   </property>
+   <property name="locale">
+    <locale language="Chinese" country="China"/>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="accessibleName">
+    <string/>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="accessibleDescription">
+    <string/>
+   </property>
+   <property name="windowIconText">
+    <string/>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="windowModified">
+    <bool>false</bool>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="pos" stdset="0">
+    <point>
+     <x>0</x>
+     <y>428</y>
+    </point>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="size" stdset="0">
+    <size>
+     <width>623</width>
+     <height>18</height>
+    </size>
+   </property>
+   <layout class="QHBoxLayout">
+    <property name="spacing">
+     <number>6</number>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+    <property name="objectName">
+     <string notr="true"/>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item>
+     <layout class="QVBoxLayout">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="objectName">
+       <string notr="true"/>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <spacer>
+        <property name="sizeHint">
+         <size>
+          <width>0</width>
+          <height>3</height>
+         </size>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <property name="margin">
+         <number>0</number>
+        </property>
+        <property name="objectName">
+         <string notr="true"/>
+        </property>
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <item>
+         <spacer>
+          <property name="sizeHint">
+           <size>
+            <width>2</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <spacer>
+          <property name="sizeHint">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <spacer>
+          <property name="sizeHint">
+           <size>
+            <width>0</width>
+            <height>13</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer>
+        <property name="sizeHint">
+         <size>
+          <width>0</width>
+          <height>2</height>
+         </size>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer>
+      <property name="sizeHint">
+       <size>
+        <width>1</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </spacer>
+    </item>
+    <item alignment="Qt::AlignBottom">
+     <widget class="QSizeGrip">
+      <property name="font">
+       <font/>
+      </property>
+      <property name="windowModality">
+       <enum>Qt::NonModal</enum>
+      </property>
+      <property name="objectName">
+       <string notr="true"/>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="minimumWidth">
+       <number>0</number>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="windowFilePath">
+       <string/>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="statusTip">
+       <string/>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="maximumHeight">
+       <number>16777215</number>
+      </property>
+      <property name="minimumHeight">
+       <number>0</number>
+      </property>
+      <property name="inputMethodHints">
+       <enum>Qt::ImhNone</enum>
+      </property>
+      <property name="maximumWidth">
+       <number>16777215</number>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="windowTitle">
+       <string/>
+      </property>
+      <property name="updatesEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="windowOpacity">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="palette">
+       <palette>
+        <active/>
+        <inactive/>
+        <disabled/>
+       </palette>
+      </property>
+      <property name="locale">
+       <locale language="Chinese" country="China"/>
+      </property>
+      <property name="cursor">
+       <cursorShape>SizeBDiagCursor</cursorShape>
+      </property>
+      <property name="accessibleName">
+       <string/>
+      </property>
+      <property name="toolTipDuration">
+       <number>-1</number>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="visible">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="accessibleDescription">
+       <string/>
+      </property>
+      <property name="windowIconText">
+       <string/>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="windowModified">
+       <bool>false</bool>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="pos" stdset="0">
+       <point>
+        <x>0</x>
+        <y>0</y>
+       </point>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="size" stdset="0">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar">
+   <property name="font">
+    <font/>
+   </property>
+   <property name="windowModality">
+    <enum>Qt::NonModal</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">toolBar</string>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="minimumWidth">
+    <number>0</number>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowFilePath">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="maximumHeight">
+    <number>16777215</number>
+   </property>
+   <property name="minimumHeight">
+    <number>0</number>
+   </property>
+   <property name="inputMethodHints">
+    <enum>Qt::ImhNone</enum>
+   </property>
+   <property name="maximumWidth">
+    <number>16777215</number>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>23</y>
+     <width>623</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="updatesEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowOpacity">
+    <double>1.000000000000000</double>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="movable">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="palette">
+    <palette>
+     <active/>
+     <inactive/>
+     <disabled/>
+    </palette>
+   </property>
+   <property name="locale">
+    <locale language="Chinese" country="China"/>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonIconOnly</enum>
+   </property>
+   <property name="accessibleName">
+    <string/>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="accessibleDescription">
+    <string/>
+   </property>
+   <property name="windowIconText">
+    <string/>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="allowedAreas">
+    <enum>Qt::ToolBarArea_Mask</enum>
+   </property>
+   <property name="windowModified">
+    <bool>false</bool>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="pos" stdset="0">
+    <point>
+     <x>0</x>
+     <y>23</y>
+    </point>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="size" stdset="0">
+    <size>
+     <width>623</width>
+     <height>22</height>
+    </size>
+   </property>
+   <layout class="QToolBarLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="margin">
+     <number>2</number>
+    </property>
+    <property name="objectName">
+     <string notr="true"/>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item alignment="Qt::AlignJustify">
+     <widget class="QToolButton">
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonIconOnly</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="windowModified">
+       <bool>false</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="maximumWidth">
+       <number>16777215</number>
+      </property>
+      <property name="locale">
+       <locale language="Chinese" country="China"/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="windowFilePath">
+       <string/>
+      </property>
+      <property name="visible">
+       <bool>true</bool>
+      </property>
+      <property name="maximumHeight">
+       <number>16777215</number>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="updatesEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="palette">
+       <palette>
+        <active/>
+        <inactive/>
+        <disabled/>
+       </palette>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>上一部</string>
+      </property>
+      <property name="toolTip">
+       <string>上</string>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="accessibleName">
+       <string/>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="size" stdset="0">
+       <size>
+        <width>55</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>2</y>
+        <width>55</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="shortcut">
+       <string/>
+      </property>
+      <property name="arrowType">
+       <enum>Qt::NoArrow</enum>
+      </property>
+      <property name="windowOpacity">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="windowIconText">
+       <string/>
+      </property>
+      <property name="objectName">
+       <string notr="true"/>
+      </property>
+      <property name="toolTipDuration">
+       <number>-1</number>
+      </property>
+      <property name="popupMode">
+       <enum>QToolButton::DelayedPopup</enum>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="statusTip">
+       <string/>
+      </property>
+      <property name="windowModality">
+       <enum>Qt::NonModal</enum>
+      </property>
+      <property name="minimumHeight">
+       <number>0</number>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="accessibleDescription">
+       <string/>
+      </property>
+      <property name="autoRepeatInterval">
+       <number>100</number>
+      </property>
+      <property name="pos" stdset="0">
+       <point>
+        <x>10</x>
+        <y>2</y>
+       </point>
+      </property>
+      <property name="font">
+       <font/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+      <property name="inputMethodHints">
+       <enum>Qt::ImhNone</enum>
+      </property>
+      <property name="minimumWidth">
+       <number>0</number>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="windowTitle">
+       <string/>
+      </property>
+      <property name="down">
+       <bool>false</bool>
+      </property>
+      <addaction name="actionprevious"/>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignJustify">
+     <widget class="QToolButton">
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonIconOnly</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="windowModified">
+       <bool>false</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="maximumWidth">
+       <number>16777215</number>
+      </property>
+      <property name="locale">
+       <locale language="Chinese" country="China"/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="windowFilePath">
+       <string/>
+      </property>
+      <property name="visible">
+       <bool>true</bool>
+      </property>
+      <property name="maximumHeight">
+       <number>16777215</number>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="updatesEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="palette">
+       <palette>
+        <active/>
+        <inactive/>
+        <disabled/>
+       </palette>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>暂停</string>
+      </property>
+      <property name="toolTip">
+       <string>暂停</string>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="accessibleName">
+       <string/>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="size" stdset="0">
+       <size>
+        <width>43</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>65</x>
+        <y>2</y>
+        <width>43</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="shortcut">
+       <string/>
+      </property>
+      <property name="arrowType">
+       <enum>Qt::NoArrow</enum>
+      </property>
+      <property name="windowOpacity">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="windowIconText">
+       <string/>
+      </property>
+      <property name="objectName">
+       <string notr="true"/>
+      </property>
+      <property name="toolTipDuration">
+       <number>-1</number>
+      </property>
+      <property name="popupMode">
+       <enum>QToolButton::DelayedPopup</enum>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="statusTip">
+       <string/>
+      </property>
+      <property name="windowModality">
+       <enum>Qt::NonModal</enum>
+      </property>
+      <property name="minimumHeight">
+       <number>0</number>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="accessibleDescription">
+       <string/>
+      </property>
+      <property name="autoRepeatInterval">
+       <number>100</number>
+      </property>
+      <property name="pos" stdset="0">
+       <point>
+        <x>65</x>
+        <y>2</y>
+       </point>
+      </property>
+      <property name="font">
+       <font/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+      <property name="inputMethodHints">
+       <enum>Qt::ImhNone</enum>
+      </property>
+      <property name="minimumWidth">
+       <number>0</number>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="windowTitle">
+       <string/>
+      </property>
+      <property name="down">
+       <bool>false</bool>
+      </property>
+      <addaction name="actionpause"/>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignJustify">
+     <widget class="QToolButton">
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonIconOnly</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="windowModified">
+       <bool>false</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="maximumWidth">
+       <number>16777215</number>
+      </property>
+      <property name="locale">
+       <locale language="Chinese" country="China"/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="windowFilePath">
+       <string/>
+      </property>
+      <property name="visible">
+       <bool>true</bool>
+      </property>
+      <property name="maximumHeight">
+       <number>16777215</number>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="updatesEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="palette">
+       <palette>
+        <active/>
+        <inactive/>
+        <disabled/>
+       </palette>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>下一部</string>
+      </property>
+      <property name="toolTip">
+       <string>下首歌</string>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="accessibleName">
+       <string/>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="size" stdset="0">
+       <size>
+        <width>55</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>108</x>
+        <y>2</y>
+        <width>55</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="shortcut">
+       <string/>
+      </property>
+      <property name="arrowType">
+       <enum>Qt::NoArrow</enum>
+      </property>
+      <property name="windowOpacity">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="windowIconText">
+       <string/>
+      </property>
+      <property name="objectName">
+       <string notr="true"/>
+      </property>
+      <property name="toolTipDuration">
+       <number>-1</number>
+      </property>
+      <property name="popupMode">
+       <enum>QToolButton::DelayedPopup</enum>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="statusTip">
+       <string/>
+      </property>
+      <property name="windowModality">
+       <enum>Qt::NonModal</enum>
+      </property>
+      <property name="minimumHeight">
+       <number>0</number>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="accessibleDescription">
+       <string/>
+      </property>
+      <property name="autoRepeatInterval">
+       <number>100</number>
+      </property>
+      <property name="pos" stdset="0">
+       <point>
+        <x>108</x>
+        <y>2</y>
+       </point>
+      </property>
+      <property name="font">
+       <font/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+      <property name="inputMethodHints">
+       <enum>Qt::ImhNone</enum>
+      </property>
+      <property name="minimumWidth">
+       <number>0</number>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="windowTitle">
+       <string/>
+      </property>
+      <property name="down">
+       <bool>false</bool>
+      </property>
+      <addaction name="actionnext"/>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignJustify">
+     <widget class="QToolButton">
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonIconOnly</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="windowModified">
+       <bool>false</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="maximumWidth">
+       <number>16777215</number>
+      </property>
+      <property name="locale">
+       <locale language="Chinese" country="China"/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="windowFilePath">
+       <string/>
+      </property>
+      <property name="visible">
+       <bool>true</bool>
+      </property>
+      <property name="maximumHeight">
+       <number>16777215</number>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="updatesEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="palette">
+       <palette>
+        <active/>
+        <inactive/>
+        <disabled/>
+       </palette>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>停止</string>
+      </property>
+      <property name="toolTip">
+       <string>停止</string>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="accessibleName">
+       <string/>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="size" stdset="0">
+       <size>
+        <width>43</width>
+        <height>18</height>
+       </size>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>163</x>
+        <y>2</y>
+        <width>43</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="shortcut">
+       <string/>
+      </property>
+      <property name="arrowType">
+       <enum>Qt::NoArrow</enum>
+      </property>
+      <property name="windowOpacity">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="windowIconText">
+       <string/>
+      </property>
+      <property name="objectName">
+       <string notr="true"/>
+      </property>
+      <property name="toolTipDuration">
+       <number>-1</number>
+      </property>
+      <property name="popupMode">
+       <enum>QToolButton::DelayedPopup</enum>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="statusTip">
+       <string/>
+      </property>
+      <property name="windowModality">
+       <enum>Qt::NonModal</enum>
+      </property>
+      <property name="minimumHeight">
+       <number>0</number>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="accessibleDescription">
+       <string/>
+      </property>
+      <property name="autoRepeatInterval">
+       <number>100</number>
+      </property>
+      <property name="pos" stdset="0">
+       <point>
+        <x>163</x>
+        <y>2</y>
+       </point>
+      </property>
+      <property name="font">
+       <font/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+      <property name="inputMethodHints">
+       <enum>Qt::ImhNone</enum>
+      </property>
+      <property name="minimumWidth">
+       <number>0</number>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="windowTitle">
+       <string/>
+      </property>
+      <property name="down">
+       <bool>false</bool>
+      </property>
+      <addaction name="actionstop"/>
+     </widget>
+    </item>
+   </layout>
+   <widget class="QToolBarExtension">
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonIconOnly</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="windowModified">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="maximumWidth">
+     <number>16777215</number>
+    </property>
+    <property name="locale">
+     <locale language="Chinese" country="China"/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="windowFilePath">
+     <string/>
+    </property>
+    <property name="visible">
+     <bool>false</bool>
+    </property>
+    <property name="maximumHeight">
+     <number>16777215</number>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="updatesEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="palette">
+     <palette>
+      <active/>
+      <inactive/>
+      <disabled/>
+     </palette>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>300</number>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="whatsThis">
+     <string/>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="accessibleName">
+     <string/>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="size" stdset="0">
+     <size>
+      <width>100</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="arrowType">
+     <enum>Qt::NoArrow</enum>
+    </property>
+    <property name="windowOpacity">
+     <double>1.000000000000000</double>
+    </property>
+    <property name="windowIconText">
+     <string/>
+    </property>
+    <property name="objectName">
+     <string notr="true">qt_toolbar_ext_button</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="popupMode">
+     <enum>QToolButton::DelayedPopup</enum>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="windowModality">
+     <enum>Qt::NonModal</enum>
+    </property>
+    <property name="minimumHeight">
+     <number>0</number>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="accessibleDescription">
+     <string/>
+    </property>
+    <property name="autoRepeatInterval">
+     <number>100</number>
+    </property>
+    <property name="pos" stdset="0">
+     <point>
+      <x>0</x>
+      <y>0</y>
+     </point>
+    </property>
+    <property name="font">
+     <font/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
+    </property>
+    <property name="inputMethodHints">
+     <enum>Qt::ImhNone</enum>
+    </property>
+    <property name="minimumWidth">
+     <number>0</number>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="windowTitle">
+     <string/>
+    </property>
+    <property name="down">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <action name="">
+    <property name="iconText">
+     <string>toolBar</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoRepeat">
+     <bool>true</bool>
+    </property>
+    <property name="shortcutContext">
+     <enum>Qt::WindowShortcut</enum>
+    </property>
+    <property name="font">
+     <font/>
+    </property>
+    <property name="visible">
+     <bool>true</bool>
+    </property>
+    <property name="iconVisibleInMenu">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>toolBar</string>
+    </property>
+    <property name="toolTip">
+     <string>toolBar</string>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="menuRole">
+     <enum>QAction::TextHeuristicRole</enum>
+    </property>
+    <property name="priority">
+     <enum>QAction::NormalPriority</enum>
+    </property>
+    <property name="objectName">
+     <string notr="true"/>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="shortcutVisibleInContextMenu">
+     <bool>true</bool>
+    </property>
+    <property name="whatsThis">
+     <string/>
+    </property>
+   </action>
+   <addaction name="actionprevious"/>
+   <addaction name="actionpause"/>
+   <addaction name="actionnext"/>
+   <addaction name="actionstop"/>
+  </widget>
+  <action name="actionfiles">
+   <property name="iconText">
+    <string>文件</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>文件</string>
+   </property>
+   <property name="toolTip">
+    <string>文件</string>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+   <property name="priority">
+    <enum>QAction::NormalPriority</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">actionfiles</string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+  </action>
+  <action name="actiondirs">
+   <property name="iconText">
+    <string>文件夹</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>文件夹</string>
+   </property>
+   <property name="toolTip">
+    <string>文件夹</string>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+   <property name="priority">
+    <enum>QAction::NormalPriority</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">actiondirs</string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+  </action>
+  <action name="actionnext">
+   <property name="iconText">
+    <string>下一部</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>下一部</string>
+   </property>
+   <property name="toolTip">
+    <string>下首歌</string>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+   <property name="priority">
+    <enum>QAction::NormalPriority</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">actionnext</string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+  </action>
+  <action name="actionprevious">
+   <property name="iconText">
+    <string>上一部</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>上一部</string>
+   </property>
+   <property name="toolTip">
+    <string>上</string>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+   <property name="priority">
+    <enum>QAction::NormalPriority</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">actionprevious</string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+  </action>
+  <action name="actionpause">
+   <property name="iconText">
+    <string>暂停</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>暂停</string>
+   </property>
+   <property name="toolTip">
+    <string>暂停</string>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+   <property name="priority">
+    <enum>QAction::NormalPriority</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">actionpause</string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+  </action>
+  <action name="actionstop">
+   <property name="iconText">
+    <string>停止</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+   <property name="toolTip">
+    <string>停止</string>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+   <property name="priority">
+    <enum>QAction::NormalPriority</enum>
+   </property>
+   <property name="objectName">
+    <string notr="true">actionstop</string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+  </action>
+ </widget>
+ <connections/>
+</ui>
