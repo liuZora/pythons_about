@@ -1,0 +1,73 @@
+{
+  "author" : "scrappy zhang",
+  "language" : "zh-hans",
+  "plugins": [
+    "-disqus",
+    "-search",
+    "search-pro",
+    "-sharing",
+    "-sharing-plus",
+    "-livereload",
+    "-github",
+    "highlight",
+    "-splitter",
+    "katex",
+    "-mermaid",
+    "tbfed-pagefooter",
+    "emphasize",
+    "toggle-chapters",
+    "expandable-chapters-small",
+    "-include-csv",
+    "-simple-page-toc",
+    "-anchor-navigation-ex",
+    "code"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "用python带你进入数据世界"
+    },
+    "github": {
+      "url": "https://github.com/ScrappyZhang/python_web_Crawler_DA_ML_DL"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy scrappy_zhang 2018",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "search-pro": {
+    "cutWordLib": "nodejieba",
+    "defineWord" : ["Gitbook Use"]
+    },
+    "anchor-navigation-ex": {
+      "isRewritePageTitle": true,
+      "isShowTocTitleIcon": true,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": true,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": true,
+      "linkedin": true,
+      "messenger": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": true,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+          "facebook", "google", "twitter",
+          "weibo", "instapaper", "linkedin",
+          "pocket", "stumbleupon"
+      ]
+    }
+  }
+}
